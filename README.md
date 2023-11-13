@@ -1,28 +1,37 @@
 # libpythonpro
-Módulo para exemplificar construcao de projetos python no curso PyTools
 
-Nesse curso é ensinado como contribuir com projetos de código aberto.
+Módulo para exemplificar construção de projetos Python no curso PyTools
 
-Link para o curso [Python pro](https://www.python.pro.br/)
+Neste curso é ensinado como contribuir com projetos de código aberto
 
-Suportada versão 3 do Python
+Link para o curso [PyTools](https://www.python.pro.br/modulos/descricao/pytools/)
+
+[![Build Status](https://travis-ci.com/victoraugusto6/pythonprolib.svg?branch=master)](https://travis-ci.com/victoraugusto6/pythonprolib)
+[![Updates](https://pyup.io/repos/github/victoraugusto6/pythonprolib/shield.svg)](https://pyup.io/repos/github/victoraugusto6/pythonprolib/)
+[![codecov](https://codecov.io/gh/victoraugusto6/pythonprolib/branch/master/graph/badge.svg?token=4L9Z9UC201)](https://codecov.io/gh/victoraugusto6/pythonprolib)
+
+Suportada versão 3 de Python
 
 Para instalar:
 
 ```console
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements-dev.txt
+pipvenv install
 ```
 
-Para conferir a qualidade do código:
+Para instalar dependências de teste:
+
 ```console
-flake8
+pipenv sync -d
 ```
+
+Para conferir qualidade de código:
+
+```console
+pipvenv run flake8
+```
+
+Tópicos a serem abordados:
 
 1. Git
-2. virtualenv
-3. PIP
-
-
-
+1. Virtualenv
+1. Pip
