@@ -18,13 +18,17 @@ jobs:
           architecture: x64
       - name: Instalar dependências
         run: |
-          pip install -r requirements-dev.txt
+          pip install -r requirements-dev.txt codecov
       - name: Rodar flake8
         uses: py-actions/flake8@v1
         with:
           checkName: 'flake8_py3'
       - name: Rodar tests
         run: |
-          pytest libpythonpro/tests
+          pytest --cov=libpythonpro
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         
       
