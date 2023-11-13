@@ -37,9 +37,3 @@ def test_remetente_invalido(remetente):
             'Cursos Python Pro',
             'Primeiro turma Guido Von Rossum aberta'
         )
-
-
-
-
-
-
