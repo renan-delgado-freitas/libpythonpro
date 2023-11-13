@@ -25,6 +25,6 @@ jobs:
           checkName: 'flake8_py3'
       - name: Rodar tests
         run: |
-          pytest --cov=libpythonpro/tests
+          pytest libpythonpro/tests
         
       
