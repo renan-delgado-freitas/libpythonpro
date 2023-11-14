@@ -9,4 +9,3 @@ def test_envio_de_spam(sessao):
         'Cursos Python Pro',
         'Confira os modulos fantásticos do Python!'
     )
-
