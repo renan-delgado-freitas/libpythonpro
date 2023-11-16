@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18ad2f15-747d-4019-8233-d151b68a9fd6" name="Changes" comment="configurado teste do modulo github_api, com o devido isolamento de teste.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" afterDir="false" />
-    </list>
+    <list default="true" id="18ad2f15-747d-4019-8233-d151b68a9fd6" name="Changes" comment="configurado teste do modulo github_api, com o devido isolamento de teste." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
