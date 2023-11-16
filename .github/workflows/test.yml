@@ -6,6 +6,7 @@ jobs:
   build:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PIPENV_IGNORE_VIRTUALENVS: 1
 
     runs-on: ubuntu-latest
 
@@ -18,7 +19,11 @@ jobs:
           architecture: x64
       - name: Instalar dependências
         run: |
-          pip install -r requirements-dev.txt codecov
+          python -m pip install --upgrade pip
+          pip install -q pipenv
+          pipenv install --dev pytest-cov
+          pip install -q codecov
+          pipenv sync --dev
       - name: Rodar flake8
         uses: py-actions/flake8@v1
         with:
@@ -30,5 +35,7 @@ jobs:
         uses: codecov/codecov-action@v3
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        run: |
+          codecov
         
       

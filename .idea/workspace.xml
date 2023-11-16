@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18ad2f15-747d-4019-8233-d151b68a9fd6" name="Changes" comment="configurado teste do modulo github_api, com o devido isolamento de teste." />
+    <list default="true" id="18ad2f15-747d-4019-8233-d151b68a9fd6" name="Changes" comment="configurado teste do modulo github_api, com o devido isolamento de teste.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/renan/git/libpythonpro/libpythonpro/spam/enviador_de_email.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ft-7",
+    "last_opened_file_path": "/home/renan/git/libpythonpro/libpythonpro/spam/enviador_de_email.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libpythonpro" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_github_api.py">
+  <component name="RunManager" selected="Python tests.Python tests in tests">
     <configuration name="github_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,10 +136,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in tests" />
         <item itemvalue="Python tests.Python tests in test_github_api.py" />
         <item itemvalue="Python.github_api" />
         <item itemvalue="Python tests.Python tests for test_github_api.test_buscar_avatar_integracao" />
-        <item itemvalue="Python tests.Python tests in tests" />
         <item itemvalue="Python tests.Python tests for test_github_api.test_buscar_avatar" />
       </list>
     </recent_temporary>
